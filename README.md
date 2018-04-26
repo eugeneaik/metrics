@@ -1,7 +1,9 @@
 # Description
 This is a simple python script to monitoring system resourses - cpu or mem
 # Dependencies
-python libraries: psutil and sys
+python libraries:
+* psutil
+* sys
 # Installation
 git clone https://github.com/eugeneaik/metrics
 
