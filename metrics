@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+
+import psutil
+from sys import argv
+
+def main():
+    result = True
+    errmsg = 'Please choose cpu or mem'
+
+    try:
+        param = argv[1]
+
+        if param == 'mem':
+            metrics = psutil.cpu_times()
+        elif param == 'cpu':
+            metrics = psutil.virtual_memory()
+        else:
+            print ('Wrong argument!' + ' ' + errmsg)
+            result = False
+
+        if result:
+            for k,v in metrics._asdict().items():
+                print (k + ' ' + str(v))
+
+    except IndexError:
+        print ('You missed argument!' + ' ' + errmsg)
+
+if __name__ == '__main__':
+    main()
