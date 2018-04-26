@@ -5,10 +5,8 @@ python libraries:
 * psutil
 * sys
 # Installation
-  git clone https://github.com/eugeneaik/metrics
-
-pip3 install psutil
+    git clone https://github.com/eugeneaik/metrics
+    pip3 install psutil
 # Examples
-./metrics cpu
-
-./metrics mem
+    ./metrics cpu
+    ./metrics mem
