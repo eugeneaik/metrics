@@ -5,7 +5,7 @@ python libraries:
 * psutil
 * sys
 # Installation
-git clone https://github.com/eugeneaik/metrics
+  git clone https://github.com/eugeneaik/metrics
 
 pip3 install psutil
 # Examples
