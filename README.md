@@ -1,5 +1,5 @@
 # Description
-This is a simple python script to monitoring system resourses - cpu or mem
+This is a simple python script for monitoring system resourses - cpu or mem
 # Dependencies
 * python3
 * psutil
@@ -8,5 +8,5 @@ This is a simple python script to monitoring system resourses - cpu or mem
     git clone https://github.com/eugeneaik/metrics
     pip3 install psutil
 # Examples
-    ./metrics cpu
-    ./metrics mem
+    $ ./metrics cpu
+    $ ./metrics mem
