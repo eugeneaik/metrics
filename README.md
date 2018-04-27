@@ -34,7 +34,7 @@ This is a simple python script for monitoring system resourses - cpu or mem
     slab 124375040
 # Docker
 It is possible to run a script as a docker container
-## Build images
+## Build image
     git clone https://github.com/eugeneaik/metrics
     cd metrics
     docker build -t metrics .
