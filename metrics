@@ -10,9 +10,9 @@ def main():
     try:
         param = argv[1]
 
-        if param == 'mem':
+        if param == 'cpu':
             metrics = psutil.cpu_times()
-        elif param == 'cpu':
+        elif param == 'mem':
             metrics = psutil.virtual_memory()
         else:
             print ('Wrong argument!' + ' ' + errmsg)
