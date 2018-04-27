@@ -35,6 +35,8 @@ This is a simple python script for monitoring system resourses - cpu or mem
 # Docker
 It is possible to run a script as a docker container
 ## Build images
+    git clone https://github.com/eugeneaik/metrics
+    cd metrics
     docker build -t metrics .
 ## Run
     docker run --pid=host --volume /:/host  metrics mem
